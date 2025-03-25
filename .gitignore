@@ -1,0 +1,5 @@
+**/*env
+.env
+dummyData.json
+Task.txt
+/.vscode
