@@ -2,12 +2,9 @@
 
 ![Landing Page](media/landing-page.png)
 
-<video width="600" controls>
-  <source src="https://youtu.be/_Kf75Zwh6sE" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the Demo](https://img.youtube.com/vi/_Kf75Zwh6sE/0.jpg)](https://www.youtube.com/watch?v=_Kf75Zwh6sE)
 
-[![Watch the demo video]](https://youtu.be/_Kf75Zwh6sE)
+[[Watch the demo video in YouTube]](https://youtu.be/_Kf75Zwh6sE)
 
 ---
 
