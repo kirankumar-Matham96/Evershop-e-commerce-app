@@ -20,6 +20,8 @@ Welcome to **Evershop E-Commerce App**, an application with backend services for
 
 ---
 
+You can refer [EverShop](https://evershop.io/) for the initial setup.
+
 ## Features
 
 - Add a single product to EverShop
