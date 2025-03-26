@@ -4,7 +4,12 @@
   "description": "E-commerce app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "evershop build",
+    "start": "evershop start",
+    "dev": "evershop dev",
+    "api": "nodemon server.js"
   },
   "keywords": [
     "e-commerce",
@@ -16,5 +21,14 @@
     "postgresql"
   ],
   "author": "Kirankumar Matham",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@evershop/evershop": "^1.2.2",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }

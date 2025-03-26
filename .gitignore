@@ -3,3 +3,6 @@
 dummyData.json
 Task.txt
 /.vscode
+*.txt
+/node_modules
+**/*node_modules
