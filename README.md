@@ -20,8 +20,6 @@ Welcome to **Evershop E-Commerce App**, an application with backend services for
 
 ---
 
-You can refer [EverShop](https://evershop.io/) for the initial setup.
-
 ## Features
 
 - Add a single product to EverShop
@@ -31,7 +29,44 @@ You can refer [EverShop](https://evershop.io/) for the initial setup.
 
 ---
 
+## Prerequisites
+
+Before setting up the application, ensure you have the following installed on your system:
+
+### **Node.js** (v16+ recommended)
+
+- Download & Install from: [https://nodejs.org/](https://nodejs.org/)
+- Verify installation:
+  ```sh
+  node -v
+  ```
+
+### **PostgreSQL** (Database)
+
+- Download & Install from: [https://www.postgresql.org/download/](https://www.postgresql.org/download/)
+- Start PostgreSQL service:
+  Linux/macOS
+  ```sh
+  sudo systemctl start postgresql
+  ```
+  macOS with Homebrew
+  ```sh
+  pg_ctl -D /usr/local/var/postgres start
+  ```
+  Windows
+  ```sh
+  net start postgresql
+  ```
+- Verify connection:
+  ```sh
+  psql -U postgres
+  ```
+
+Once these dependencies are installed, follow the [Setup & Installation](#setup--installation) steps.
+
 ## Setup & Installation
+
+You can refer [EverShop](https://evershop.io/) for the initial setup.
 
 ### **Clone the Repository**
 
@@ -82,6 +117,14 @@ The server will run on **http://localhost:3000**.
 ---
 
 ## API Endpoints
+
+    Note: to use API endpoints, keep the app running and open new terminal. CD to the app directory and run the below command:
+
+    ```sh
+    npm run api
+    ```
+
+    now you can use the postman or any other client to test the APIs.
 
 [Postman Collection](https://documenter.getpostman.com/view/15920123/2sAYkLmGz1)
 
