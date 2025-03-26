@@ -1,8 +1,16 @@
 # Evershop-e-commerce-app
 
-![Landing Page](https://res.cloudinary.com/kiran-commerce-app/image/upload/v1743021179/landing-page_z9gaod.png)
+<!-- Landing Page Image (Full Width) -->
+<p align="center">
+  <img src="https://res.cloudinary.com/kiran-commerce-app/image/upload/v1743021179/landing-page_z9gaod.png" alt="Landing Page" width="100%">
+</p>
 
-[![Watch the Demo](https://img.youtube.com/vi/_Kf75Zwh6sE/0.jpg)](https://www.youtube.com/watch?v=_Kf75Zwh6sE)
+<!-- YouTube Video (Full Width + Open in New Tab) -->
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=_Kf75Zwh6sE" target="_blank">
+    <img src="https://img.youtube.com/vi/_Kf75Zwh6sE/0.jpg" alt="Watch the Demo" width="70%">
+  </a>
+</p>
 
 [[Watch the demo video in YouTube]](https://youtu.be/_Kf75Zwh6sE)
 
