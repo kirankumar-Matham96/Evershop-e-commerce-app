@@ -1,6 +1,6 @@
 # Evershop-e-commerce-app
 
-![Landing Page](media/landing-page.png)
+![Landing Page](https://res.cloudinary.com/kiran-commerce-app/image/upload/v1743021179/landing-page_z9gaod.png)
 
 [![Watch the Demo](https://img.youtube.com/vi/_Kf75Zwh6sE/0.jpg)](https://www.youtube.com/watch?v=_Kf75Zwh6sE)
 
