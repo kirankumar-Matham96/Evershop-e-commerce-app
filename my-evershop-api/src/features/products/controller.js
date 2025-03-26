@@ -75,12 +75,6 @@ class ProductsController {
         product: product?.data || "No response data",
       });
     } catch (error) {
-      console.error(
-        "🚀 ~ Error Response:",
-        error.response?.data || error.message,
-        "\n\n\n"
-      );
-      console.error("🚀 ~ Error Stack:", error.stack, "\n\n\n");
       next(error);
     }
   };

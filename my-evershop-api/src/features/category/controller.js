@@ -34,19 +34,12 @@ class CategoryController {
           },
         }
       );
-
-      console.log(
-        "🚀 ~ CategoryController ~ addCategory= ~ category:",
-        category.data
-      );
-
       res.status(201).json({
         success: true,
         message: `Created ${name} category`,
         category: category.data,
       });
     } catch (error) {
-      console.log("🚀 ~ CategoryController ~ addCategory= ~ error:", error);
       next(error);
     }
   };
@@ -55,18 +48,11 @@ class CategoryController {
     try {
       const { id } = req.params;
 
-      const response = await axios.delete(`${API_BASE_URL}/categories/${id}`);
-
-      console.log(
-        "🚀 ~ CategoryController ~ deleteCategory ~ response:",
-        response.data
-      );
-
+      await axios.delete(`${API_BASE_URL}/categories/${id}`);
       res
         .status(200)
         .json({ success: true, message: "category deleted successfully" });
     } catch (error) {
-      console.log("🚀 ~ CategoryController ~ deleteCategory ~ error:", error);
       next(error);
     }
   };
