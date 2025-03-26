@@ -2,7 +2,16 @@
 .env
 dummyData.json
 Task.txt
+**/*.vscode
 /.vscode
 *.txt
 /node_modules
 **/*node_modules
+**/*evershop
+ **/media
+ 
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
