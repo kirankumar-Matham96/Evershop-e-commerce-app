@@ -37,6 +37,7 @@ const CORS = require("cors");
 const http = require("http");
 const  handleError  = require("./src/middlewares/errorHandling.middleware.js");
 const { productsRouter } = require("./src/features/products/routes.js");
+const { categoryRouter } = require("./src/features/category/routes.js");
 
 const app = express();
 const server = http.createServer(app);
@@ -47,6 +48,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(CORS());
 
 app.use("/api/products", productsRouter);
+app.use("/api/categories", categoryRouter);
 
 // error handling
 app.use(handleError);
